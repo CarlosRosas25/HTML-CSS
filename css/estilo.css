@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* ----------- Home - index ----------- */
+.navbar-custom {
+  background-color: #fc4c02;
+  padding: 5px 20px; }
+
+.logo1 {
+  height: 100px;
+  width: 120px;
+  border-radius: 20%;
+  transition: transform 0.5s; }
+  .logo1:hover {
+    transform: scale(1.1); }
+
+#navbarNav {
+  border: dashed 2px #fd9467;
+  flex-grow: 0; }
+
+.nav-item {
+  padding: 0.1rem 0.8rem; }
+
+.navbar-text {
+  font-family: sans-serif;
+  font-size: 19px;
+  color: white; }
+
+.main_div {
+  background-color: #fc4c02; }
+
+#carouselExampleCaptions {
+  padding: 0 34px; }
+
+.image-height {
+  height: 82vh; }
+
+.carousel-text {
+  font-family: sans-serif; }
+
+.menu-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px 0; }
+
+.sub-menus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 30px; }
+
+.menu-photos {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%; }
+
+.titles-menu-sec {
+  padding: 7px 0; }
+  .titles-menu-sec a {
+    font-family: sans-serif;
+    color: #ffede6;
+    font-weight: lighter;
+    font-size: 24px;
+    transition: all 0.4s; }
+    .titles-menu-sec a:hover {
+      color: black; }
+
+.text-menu-sec {
+  font-family: sans-serif;
+  color: #fec9b3;
+  font-size: 15px; }
+
+.foot-div {
+  background-color: #fc4c02;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px; }
+  .foot-div span {
+    font-family: sans-serif;
+    color: #ffede6;
+    padding: 0 20px; }
+
+.footer-part-1, .footer-part-2 {
+  display: flex;
+  align-items: center;
+  border: dashed 2px #fd9467;
+  padding: 4px; }
+
+.footer-icon-cr, .footer-icon-fb, .footer-icon-ig {
+  height: 25px;
+  padding: 0 3px; }
+
+/* ----------- About us ----------- */
+.about-sec {
+  background-color: #fec9b3;
+  padding: 0 40px; }
+  .about-sec h1, .about-sec p {
+    font-family: sans-serif;
+    padding: 10px;
+    border: dashed 2px #fd9467;
+    border-radius: 7px; }
+  .about-sec h1 {
+    width: fit-content;
+    margin-bottom: 15px;
+    font-size: 30px; }
+  .about-sec p {
+    width: 100%;
+    text-align: justify;
+    font-size: 16px; }
+
+.about-sec1, .about-sec2 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.who-text, .mission-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  transform: rotate(8deg); }
+
+.mission-text {
+  align-items: flex-end;
+  transform: rotate(-8deg); }
+
+.team-img {
+  width: 50%;
+  margin-left: 20px; }
+
+.kitchen-img {
+  height: 82%;
+  margin-right: 20px; }
