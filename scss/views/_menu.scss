@@ -1,0 +1,55 @@
+/* ----------- Menu ----------- */
+
+.menu-sec1, .menu-sec2, .menu-sec3 {
+  display: map-get($flex-properties,dflex);
+  flex-direction: map-get($flex-properties,fcolumn);
+}
+
+.title-menu-sec1 {
+  background-image: url("/images/menu/coffee-mugs.jpg");
+  background-size: 100% 100%;
+  height: 60vh;
+  color: $primary-color;
+  font-size: 60px;
+  font-family: $primary-font-family;
+  text-shadow: 0 2px black;
+  @include flex-center-center;
+  margin-bottom: 0;
+}
+
+.title-menu-sec2 {
+  @extend .title-menu-sec1;
+  background-image: url("/images/menu/cookies.jpeg");
+}
+
+.title-menu-sec3 {
+  @extend .title-menu-sec1;
+  background-image: url("/images/menu/pita.jpg");
+}
+
+.title-menu-sec1, .title-menu-sec2, .title-menu-sec3 {
+  color: $primary-color;
+  font-size: 60px;
+  font-family: $primary-font-family;
+  text-shadow: 0 2px black;
+  @include flex-center-center;
+  margin-bottom: 0;
+}
+
+.options-menu-sec1, .options-menu-sec2, .options-menu-sec3 {
+  display: grid;
+  grid-template-columns: repeat(3, 33.3%);
+  grid-template-rows: 1fr 1fr;
+  padding: 22px 0;
+  background-color: $fourth-color;
+  margin-bottom: 0;
+}
+
+.options-menu-sec1 li, .options-menu-sec2 li, .options-menu-sec3 li {
+  list-style-type: none;
+  padding: 10px 120px;
+  font-family: $primary-font-family;
+  font-size: 15px;
+  display: map-get($flex-properties,dflex);
+  justify-content: map-get($flex-properties,jspbetween);
+}

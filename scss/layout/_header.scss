@@ -1,0 +1,31 @@
+/* ----------- Header ----------- */
+
+.navbar-custom {
+  background-color: $primary-color;
+  padding: 5px 20px;
+}
+
+.logo1 {
+  @include sizes(100px, 120px);
+  border-radius: 20%;
+  transition: transform 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+#navbarNav {
+  border: $border-style;
+  flex-grow: 0;
+}
+
+.nav-item {
+  padding: 0.1rem 0.8rem;
+}
+
+.navbar-text {
+  font-family: $primary-font-family;
+  font-size: 19px;
+  color: white;
+}

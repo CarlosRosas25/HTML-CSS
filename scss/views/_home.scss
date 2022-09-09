@@ -1,0 +1,56 @@
+/* ----------- Home - index ----------- */
+
+.main_div {
+  background-color: $primary-color;
+}
+
+#carouselExampleCaptions {
+  padding: 0 34px;
+}
+
+.image-height {
+  height: 82vh;
+}
+
+.carousel-text {
+  font-family: $primary-font-family;
+}
+
+.menu-sec {
+  @include flex-center-center;
+  flex-wrap: map-get($flex-properties,fwrap);
+  padding: 40px 0;
+}
+
+.sub-menus {
+  @include flex-column-center;
+  width: 50%;
+  padding: 30px;
+}
+
+.menu-photos {
+  @include sizes(180px, 180px);
+  border-radius: 50%;
+}
+
+.titles-menu-sec {
+  padding: 7px 0;
+
+  a {
+    font-family: $primary-font-family;
+    color: $fourth-color;
+    font-weight: lighter;
+    font-size: 24px;
+    transition: all 0.4s;
+  
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.text-menu-sec {
+  font-family: $primary-font-family;
+  color: $third-color;
+  font-size: 15px;
+}

@@ -1,0 +1,53 @@
+/* ----------- About us ----------- */
+
+.about-sec {
+  background-color: $third-color;
+  padding: 0 40px;
+
+  h1, p {
+    font-family: $primary-font-family;
+    padding: 10px;
+    border: $border-style;
+    border-radius: 7px;
+  }
+
+  h1 {
+    width: fit-content;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  p {
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+  }
+}
+
+.about-sec1, .about-sec2 {
+  height: 500px;
+  @include flex-center-center;
+}
+
+.who-text {
+  display: map-get($flex-properties,dflex);
+  flex-direction: map-get($flex-properties,fcolumn);
+  width: 50%;
+  transform: rotate(8deg);
+}
+
+.mission-text {
+  @extend .who-text;
+  align-items: map-get($flex-properties,aflend);
+  transform: rotate(-8deg);
+}
+
+.team-img {
+  width: 50%;
+  margin-left: 20px;
+}
+
+.kitchen-img {
+  height: 82%;
+  margin-right: 20px;
+}

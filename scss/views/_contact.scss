@@ -1,0 +1,52 @@
+/* ----------- Contact ----------- */
+
+.contact-sec {
+  background-color: $third-color;
+  padding: 35px 20px;
+}
+
+.contact-sec1 {
+  display: map-get($flex-properties,dflex);
+  justify-content: map-get($flex-properties,jspevenly);
+  align-items: map-get($flex-properties,acenter);
+}
+
+.contact-icons {
+  width: 100px;
+}
+
+.line-icon {
+  @include sizes(400px, 60px);
+}
+
+.schedule-sec, .email-sec, .location-sec {
+  @include flex-column-center;
+  justify-content: map-get($flex-properties,jcenter);
+}
+
+.schedule-info, .email-info, .location-info {
+  font-family: $primary-font-family;
+  font-size: 18px;
+  background-color: $fourth-color;
+  border-radius: 5px;
+  padding: 0 6px;
+}
+
+.schedule-info, .location-info {
+  margin-top: 10px;
+}
+
+.contact-sec2 {
+  @include flex-column-center;
+  margin: 20px 0;
+}
+
+.text-sec2 {
+  font-family: $primary-font-family;
+  font-size: 19px;
+  text-align: center;
+}
+
+.margin-name {
+  margin-right: 30px;
+}

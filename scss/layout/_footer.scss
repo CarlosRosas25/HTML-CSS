@@ -1,0 +1,28 @@
+/* ----------- Footer ----------- */
+
+.foot-div {
+  background-color: $primary-color;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+
+  span {
+    font-family: $primary-font-family;
+    color: $fourth-color;
+    padding: 0 20px;
+  }
+}
+
+.footer-part-1, .footer-part-2 {
+  display: flex;
+  align-items: center;
+  border: $border-style;
+  padding: 4px;
+}
+
+.footer-icon-cr, .footer-icon-fb, .footer-icon-ig {
+  height: 25px;
+  padding: 0 3px;
+}
