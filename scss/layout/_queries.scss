@@ -28,6 +28,16 @@
   }
 }
 
+@media screen and (max-width: 829px) {
+
+  /* ----------- Menu ----------- */
+
+  .options-menu-sec1, .options-menu-sec2, .options-menu-sec3 {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+  }
+}
+
 @media screen and (max-width: 767px) {
   
   /* ----------- Home - index ----------- */
@@ -88,13 +98,6 @@
   .about-sec p {
     font-size: 14px;
   }
-
-  /* ----------- Menu ----------- */
-
-  .options-menu-sec1, .options-menu-sec2, .options-menu-sec3 {
-    grid-template-columns: 100%;
-    grid-template-rows: 1fr;
-  }
 }
 
 @media screen and (max-width: 610px) {
@@ -119,6 +122,7 @@
 
   .title-menu-sec1, .title-menu-sec2, .title-menu-sec3 {
     font-size: 45px;
+    height: 40vh;
   }
 }
 

@@ -1,0 +1,36 @@
+.products-sec {
+  padding: 50px 0;
+  background-color: $third-color;
+}
+
+.products-sec1, .products-sec2 {
+  @include flex-column-center;
+
+  h1 {
+    font-family: $primary-font-family;
+    font-size: 40px;
+  }
+}
+
+.products-sec1 {
+  margin-bottom: 35px;
+}
+
+.cards-container {
+  width: 100%;
+  display: map-get($flex-properties, dflex);
+  justify-content: map-get($flex-properties, jspevenly);
+  flex-wrap: map-get($flex-properties, fwrap);
+}
+
+.card {
+  margin: 30px 0;
+}
+
+.card-body {
+  background-color: $fourth-color;
+
+  h5, p, a {
+    font-family: $primary-font-family;
+  }
+}
