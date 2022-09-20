@@ -71,32 +71,34 @@
     text-align: center;
   }
 
+  /* ----------- Footer ----------- */
+
   .foot-div{
     height: 70px;
     padding: 0 28px;
+
+    span {
+      padding: 0 15px;
+      font-size: 14px;
+    }
   }
   
   .footer-icon-cr, .footer-icon-fb, .footer-icon-ig {
     height: 20px;
-  }
-  
-  .foot-div span{
-    padding: 0 15px;
-    font-size: 14px;
   }
 
   /* ----------- About us ----------- */
 
   .about-sec {
     padding: 0 25px;
-  }
 
-  .about-sec h1 {
-    font-size: 20px;
-  }
-  
-  .about-sec p {
-    font-size: 14px;
+    h1 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 14px;
+    }
   }
 }
 
@@ -110,12 +112,14 @@
 
   /* ----------- About us ----------- */
 
-  .about-sec h1 {
-    font-size: 20px;
-  }
-  
-  .about-sec p {
-    font-size: 13px;
+  .about-sec {
+    h1 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 12px;
+    }
   }
 
   /* ----------- Menu ----------- */
@@ -149,15 +153,15 @@
   .foot-div{
     height: 60px;
     padding: 0 20px;
+
+    span {
+      padding: 0 10px;
+      font-size: 12px;
+    }
   }
   
   .footer-icon-cr, .footer-icon-fb, .footer-icon-ig {
     height: 18px;
-  }
-  
-  .foot-div span{
-    padding: 0 10px;
-    font-size: 12px;
   }
 
   /* ----------- About us ----------- */
@@ -198,5 +202,21 @@
 
   .title-menu-sec1, .title-menu-sec2, .title-menu-sec3 {
     font-size: 35px;
+  }  
+}
+
+@media screen and (max-width: 415px) {
+
+  /* ----------- Header ----------- */
+
+  .logo1 {
+    @include sizes(80px, 100px);
+  }
+
+  /* ----------- Menu ----------- */
+
+  .options-menu-sec1 li, .options-menu-sec2 li, .options-menu-sec3 li {
+    padding: 10px 75px;
+    font-size: 14px;
   }
 }
